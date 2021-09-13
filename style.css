@@ -1,0 +1,316 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+
+li
+{
+  list-style: none;
+}
+
+a{
+  text-decoration: none; 
+}
+
+:root
+{
+  --main-color:#B37C6C;
+}
+
+/* navbar section part */
+.navbar-brand
+{
+  font-size: 2.5rem !important;
+}
+
+.navbar-toggler
+{
+  border: none;  
+  outline: none !important;
+}
+
+.nav-link
+{
+  font-size: 2.1rem !important;
+  margin: 0 1.2rem;
+  transition: all 0.3s linear;
+}
+
+.navbar
+{
+  padding: 1rem 0;
+}
+
+.fa-align-right
+{
+  font-size: 3rem;
+}
+
+.fa-coffee
+{
+  color: var(--main-color);
+  font-size: 3.5rem;
+}
+
+.home
+{
+  color:var(--main-color) !important;
+}
+
+.nav-link:hover
+{
+  color: var(--main-color) !important;
+}
+
+
+/* home section part */
+
+
+.hero
+{
+  width:100%;
+  height:60rem;
+  position: relative;
+}
+
+.hero::before
+{
+  content: "";
+  position: absolute;
+  background: url('coffee.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  top:0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 60rem;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.hero-title
+{
+  padding-top: 16rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.hero-mug
+{
+  padding-top: .5rem;
+  font-size: 5rem;
+  color: white;
+}
+
+.hero-des
+{
+  padding-top: .5rem;
+  font-size: 1.7rem;
+  color: white;
+}
+
+.hero-desagain
+{
+  font-size: 1.7rem;
+  color: white;
+}
+
+.hero-btn
+{
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  font-size: 2rem;
+  border-radius: 0 !important;
+  padding: 1rem 2rem;
+}
+
+.hero-btn:hover
+{
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  box-shadow: none;
+}
+
+/* Product Section */
+.product-img
+{
+  width:35rem;
+  height:35rem;
+  display: block;
+  border-radius: .5rem;
+  margin: auto;
+}
+
+.product-title
+{
+  font-size: 2.1rem;
+}
+
+.price
+{
+  font-size: 1.7rem;
+}
+
+.subscribe
+{
+  background:#171935;
+}
+
+.subscribe-para
+{
+  color: white;
+  font-size: 1.3rem;
+}
+
+.subscribe-head
+{
+  color: white;
+  font-size: 3rem;
+}
+
+.sub
+{
+  width: 25rem;
+  padding: 1rem 1rem;
+  border: 1px solid #08294A;
+  background: transparent;
+}
+
+.sub:hover
+{
+  background: transparent;
+  box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid #08294A;
+}
+
+@media(max-width: 360px){
+  .subbtn
+  {
+    display: block !important;
+    margin:1rem auto;
+    width:25rem;
+    padding: 1rem 1rem;
+  }
+  
+  
+  .subsection
+  {
+    display:flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  
+  .sub{
+    display: block;
+    margin: auto;
+     padding: 1.2rem 1rem;
+  }
+}
+
+/* BehindMug section part */
+.BehindMug
+{
+ position: relative;
+}
+
+.BehindMug::before
+{
+  content: "";
+  position: absolute;
+  background: url('behind-mug.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.6;
+  width: 100%;
+  height:30rem;
+}
+
+.BehindMug-para
+{
+  font-size: 1.9rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.nameLabel, .msgLabel, .emailLabel 
+{
+  font-size: 2rem;
+  color:var(--main-color);
+}
+
+.msg, .name, .email{
+  padding: 1rem 1rem; 
+  font-size: 1.6rem;
+}
+
+.submit
+{
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  background: var(--main-color);
+  color: white;
+  border: none;
+  margin-top: .5rem;
+}
+
+.submit:hover
+{
+  background: white !important;
+  color: var(--main-color);
+  box-shadow: none !important;
+  border: 1px solid var(--main-color);
+}
+
+.contact-head, .product-head
+{
+  color: var(--main-color);
+  font-size: 3rem;
+}
+
+.footer
+{
+  position: relative;
+  margin-top:26rem;
+}
+
+h4
+{
+ position: relative; 
+ text-align: center;
+ font-size: 1.7rem !important;
+}
+
+.coffee-footer
+{
+  font-size: 1.7rem;
+  color:var(--main-color) !important;
+}
+
+
+.scrollTop
+{
+  position: fixed;
+  bottom: 2rem;
+  right:2rem;
+}
+
+.fa-arrow-circle-up
+{
+  color: var(--main-color);
+}
+
+
