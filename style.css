@@ -219,6 +219,10 @@ a{
   }
 }
 
+.product-img:hover{
+  opacity:0.9;
+}
+
 /* BehindMug section part */
 .BehindMug
 {
@@ -313,4 +317,50 @@ h4
   color: var(--main-color);
 }
 
+.black
+{
+  width: 100%;
+  height: 40rem;
+  margin-top:5rem !important;
+}
 
+.black-tea
+{
+   margin-top:5rem !important; 
+}
+
+.black-h
+{
+  font-size: 3rem;  
+}
+
+.black-p
+{
+  font-size: 1.6rem;  
+}
+
+.qty
+{
+  display:inline !important;
+  width: 10rem;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+}
+
+.cart
+{
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.addcart
+{
+ padding: 1rem 1rem;
+ font-size: 1.6rem;
+}
+
+.price
+{
+  font-size: 1.8rem;
+}
